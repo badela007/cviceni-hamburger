@@ -1,7 +1,17 @@
 header {
   display: flex;
-  background-color: lightgray;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background-color: #68506A;
   height: 3rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  right: 0;
+}
+
+.menu {
+  position: relative;
 }
 
 .menu__btn {
@@ -21,12 +31,33 @@ header {
 }
 
 .menu__items {
-  background-color: lightgray;
+  background-color: #68506A;
   padding: 1rem;
-  margin-top: 0.75rem;
-  position: relative;
+  position: absolute;
+  bottom: 2.5rem;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .menu--closed .menu__items {
   display: none;
+}
+
+.menu-item {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+  font-weight: 800;
 }

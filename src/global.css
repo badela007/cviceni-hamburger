@@ -5,7 +5,10 @@
 }
 
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.25px;
+  font-weight: 300;
 }
 
 body {
@@ -16,4 +19,8 @@ body {
   max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
+}
+
+a {
+  text-decoration: none;
 }
