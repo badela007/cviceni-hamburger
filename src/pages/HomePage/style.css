@@ -16,6 +16,10 @@ header {
   cursor: pointer;
 }
 
+.menu__btn--open {
+  background-image: url(./img/close-icon.svg);
+}
+
 .menu__items {
   background-color: lightgray;
   padding: 1rem;

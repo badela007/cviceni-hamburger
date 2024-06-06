@@ -15,7 +15,7 @@ export const HomePage = () => {
       <header>
         <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
           <button
-            className="menu__btn"
+            className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
             onClick={() => {
               setMenuOpened(!menuOpened);
             }}
